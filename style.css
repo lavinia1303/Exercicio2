@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+.corpo{
+    background-color: rgb(216, 234, 249);
+}
+
+.cabecalho{
+    background-color: #294f91;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho h1 {
+    margin-bottom: 20px;
+}
+
+.cabecalho h2 {
+    margin-top: 0;
+}
+
+
+.caixa1 {
+    background-color: white;
+    width: 60%;
+    height: 125px;
+    margin: 20px auto 0;
+    border: 1px solid grey;
+    height: auto;
+    padding: 15px;
+}
+
+.caixa1 h2{
+    color: #294f91;
+    justify-content: center;
+    align-items: center;
+
+}
+.caixa2 {
+    background-color: white;
+    width: 60%;
+    height: 125px;
+    margin: 20px auto 0;
+    border: 1px solid grey;
+    height: auto;
+    padding: 15px;
+}
+
+.caixa2 h2{
+    color: #294f91;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.caixa {
+    width: 170px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.html {
+    background-color: #d9e7ff;
+    color: #2b5190;
+    margin-right: 15px;
+}
+.arduino {
+    background-color: #d9f3df;
+    color: #28683e;
+    font-size: 30px;
+    margin-right: 15px;
+}
+.impressao {
+    background-color: #ffead8;
+    color: #a65319;
+    font-size: 18px;
+}
